@@ -1,5 +1,6 @@
 body {
-    font-family: 'Fraunces';
+    font-family: 'Fraunces', serif;
+    font-weight: 400;
     background-color: #FFFBD2;
     color: #5B0041;
 }
@@ -11,15 +12,23 @@ body {
     background-color: #FFFBD2;
     color: #5B0041;
 }
+.portfolio {
+    font-weight: 300;
+}
 .button-border {
     border-bottom: 2px solid #773e78;
     color: #FFFBD2;
 }
 .header {
     display: inline-block;
-    border-bottom: 2px solid #773e78;
     line-height: 0.9;
-    font-weight: bold;
+    font-weight: 600;
     font-size: 6vw;
     text-align: center;
+}
+.title {
+    font-weight: 200;
+}
+.date {
+    font-weight: 300;
 }

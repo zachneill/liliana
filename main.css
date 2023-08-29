@@ -1,0 +1,25 @@
+body {
+    font-family: 'Fraunces';
+    background-color: #FFFBD2;
+    color: #5B0041;
+}
+.purple {
+    background-color: #5B0041;
+    color: #FFFBD2;
+}
+.tan {
+    background-color: #FFFBD2;
+    color: #5B0041;
+}
+.button-border {
+    border-bottom: 2px solid #773e78;
+    color: #FFFBD2;
+}
+.header {
+    display: inline-block;
+    border-bottom: 2px solid #773e78;
+    line-height: 0.9;
+    font-weight: bold;
+    font-size: 6vw;
+    text-align: center;
+}

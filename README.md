@@ -6,4 +6,3 @@ Making a portfolio website for Liliana
 - Favicon
 - Academic Work 
 - About Me
-- Curly header font from wireframe

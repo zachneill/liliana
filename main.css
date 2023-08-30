@@ -19,6 +19,37 @@ body {
     border-bottom: 2px solid #773e78;
     color: #FFFBD2;
 }
+.nav-border{
+    background-image:
+            radial-gradient(circle at 0 0, transparent .6rem, #FFFBD2 .6rem, #FFFBD2 .7rem, transparent .7rem),
+            radial-gradient(circle at 100% 0, transparent .6rem, #FFFBD2 .6rem, #FFFBD2 .7rem, transparent .7rem),
+            radial-gradient(circle at 0 100%, transparent .6rem, #FFFBD2 .6rem, #FFFBD2 .7rem, transparent .7rem),
+            radial-gradient(circle at 100% 100%, transparent .6rem, #FFFBD2 .6rem, #FFFBD2 .7rem, transparent .7rem);
+}
+
+.nav-border::before{
+    content:"";
+    position:absolute;
+    top:50%;
+    left:50%;
+    width:100%;
+    height:calc(100% - 1.2rem);
+    transform:translate(-50%, -50%);
+    border-left:1px solid #FFFBD2;
+    border-right:1px solid #FFFBD2;
+}
+
+.nav-border::after{
+    content:"";
+    position:absolute;
+    top:50%;
+    left:50%;
+    width:calc(100% - 1.2rem);
+    height:100%;
+    transform:translate(-50%, -50%);
+    border-top:1px solid #FFFBD2;
+    border-bottom:1px solid #FFFBD2;
+}
 .header {
     display: inline-block;
     line-height: 0.9;
